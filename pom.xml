@@ -4,4 +4,29 @@
   <artifactId>demomaven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Demomaven</name>
+  
+  	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.atlassian.maven.plugins</groupId>
+				<artifactId>maven-clover2-plugin</artifactId>
+				<version>4.0.6</version>
+				<configuration>
+					<generateXml>true</generateXml>
+					<generateHtml>false</generateHtml>
+					<generatePdf>false</generatePdf>
+					<generateJson>false</generateJson>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>site</phase>
+						<goals>
+							<goal>instrument</goal>
+							<goal>clover</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			</plugins>
+			</build>
 </project>
