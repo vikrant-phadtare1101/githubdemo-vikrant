@@ -64,7 +64,6 @@
 		</plugins>
 	</build>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -75,5 +74,6 @@
 	</dependencies>
 	<modules>
 		<module>subproject</module>
+		<module>subproject2</module>
 	</modules>
 </project>
