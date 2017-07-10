@@ -8,6 +8,10 @@ public class Demo {
 	
 	public boolean unusedMethodSubproject(boolean k) {
 		k = true;
-		return k;
+		
+        String foo = null;
+        System.out.println(foo.length());
+        
+        return k;
 	}
 }
