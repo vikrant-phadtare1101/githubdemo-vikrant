@@ -6,7 +6,7 @@
 	},
 	"repositories": [{
 			"repository": {
-				"uid": "480e61811ab6867642b6c52af4c70101",
+				"uid": "835279b8743ccecb2176af6952e72766",
 				"projectName": "project_name",
 				"sources": {
 					"baseDir": "$WORKSPACE"
