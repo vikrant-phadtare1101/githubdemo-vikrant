@@ -9,7 +9,7 @@
 				"uid": "480e61811ab6867642b6c52af4c70101",
 				"projectName": "project_name",
 				"sources": {
-					"baseDir": "/var/lib/jenkins/workspace/githubdemojava"
+					"baseDir": "$WORKSPACE"
 				}
 			},
 			"dataDir": "$GAMMA_DATA",
