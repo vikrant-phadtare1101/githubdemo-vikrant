@@ -9,7 +9,7 @@
 				"uid": "835279b8743ccecb2176af6952e72766",
 				"projectName": "project_name",
 				"sources": {
-					"baseDir": "C:/Program Files (x86)/Jenkins/workspace/githubdemo"
+					"baseDir": "$WORKSPACE"
 				}
 			},
 			"dataDir": "C:/temp",
