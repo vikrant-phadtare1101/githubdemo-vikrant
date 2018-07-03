@@ -1,0 +1,24 @@
+{
+	"gammaAccess": {
+		"url": "http://192.168.2.38:3000",
+		"userName": "nilesh.virkar@acellere.com",
+		"password": "gamma123"
+	},
+	"repositories": [{
+			"repository": {
+				"uid": "835279b8743ccecb2176af6952e72766",
+				"projectName": "project_name",
+				"sources": {
+					"baseDir": "$WORKSPACE"
+				}
+			},
+			"dataDir": "C:/temp",
+			"modules": {
+				"codeissues": [{
+						"name": "pmd"
+					}
+				]
+			}
+		}
+	]
+}
