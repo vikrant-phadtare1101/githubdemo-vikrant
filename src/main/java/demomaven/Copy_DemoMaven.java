@@ -1,6 +1,6 @@
 package demomaven;
 
-public class DemoMaven {
+public class Copy_DemoMaven {
 
 	public static void main(String[] args) {
 		int k;
