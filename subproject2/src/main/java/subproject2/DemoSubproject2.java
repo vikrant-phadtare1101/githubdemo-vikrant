@@ -39,6 +39,11 @@ public class DemoSubproject2 {
         String foo = null;
         System.out.println(foo.length());
         
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
         return k;
 	}
 	
@@ -47,6 +52,11 @@ public class DemoSubproject2 {
 		
         String foo = null;
         System.out.println(foo.length());
+        
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
         
         return k;
 	}

@@ -12,6 +12,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -21,6 +26,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -30,6 +40,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -39,6 +54,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -48,6 +68,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -57,6 +82,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -66,6 +96,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -75,6 +110,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -84,6 +124,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -93,6 +138,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -102,6 +152,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 	public boolean unusedMethod12(boolean k) {
@@ -110,6 +165,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -119,6 +179,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 	public boolean unusedMethod14(boolean k) {
@@ -127,6 +192,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -136,6 +206,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -145,6 +220,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
@@ -154,6 +234,11 @@ public class DemoMaven_Copy extends DemoMaven {
 		String foo = null;
 		System.out.println(foo.length());
 
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
 		return k;
 	}
 
