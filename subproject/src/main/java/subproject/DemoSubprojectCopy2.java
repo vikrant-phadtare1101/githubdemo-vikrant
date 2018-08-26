@@ -1,6 +1,6 @@
 package subproject;
 
-public class DemoSubprojectCopy {
+public class DemoSubprojectCopy2 {
 
 	public static void main(String[] args) {
 		int k_subproject;

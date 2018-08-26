@@ -1,6 +1,6 @@
 package subproject2;
 
-public class DemoSubproject2 {
+public class DemoSubproject {
 
 	public static void main(String[] args) {
 		int k_subproject;
