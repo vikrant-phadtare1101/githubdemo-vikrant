@@ -12,7 +12,7 @@ public class DemoMaven {
         String foo = null;
         System.out.println(foo.length());
         
-		return k;
+		return true;
 	}
 	
 	public boolean unusedMethod2(boolean k) {
@@ -21,7 +21,7 @@ public class DemoMaven {
         String foo = null;
         System.out.println(foo.length());
         
-		return k;
+		return true;
 	}
 
 }
