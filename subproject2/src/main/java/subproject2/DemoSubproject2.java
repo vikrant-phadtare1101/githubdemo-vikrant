@@ -1,6 +1,6 @@
 package subproject2;
 
-public class DemoSubproject2 {
+public class DemoSubproject2 extends DemoSubproject{
 
 	public static void main(String[] args) {
 		int k_subproject;
@@ -12,6 +12,11 @@ public class DemoSubproject2 {
         String foo = null;
         System.out.println(foo.length());
         
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
         return k;
 	}
 	
@@ -21,6 +26,11 @@ public class DemoSubproject2 {
         String foo = null;
         System.out.println(foo.length());
         
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        
         return k;
 	}
 	
@@ -29,6 +39,11 @@ public class DemoSubproject2 {
 		
         String foo = null;
         System.out.println(foo.length());
+        
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
         
         return k;
 	}
@@ -59,5 +74,45 @@ public class DemoSubproject2 {
 		}
         
         return k;
+	}
+	
+	public boolean unusedMethodSubproject_k1(boolean k) {
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        return true;
+	}
+	
+	public boolean unusedMethodSubproject_k2(boolean k) {
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        return true;
+	}
+	
+	public boolean unusedMethodSubproject_k3(boolean k) {
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        return true;
+	}
+	
+	public boolean unusedMethodSubproject_k4(boolean k) {
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        return true;
+	}
+	
+	public boolean unusedMethodSubproject_k5(boolean k) {
+        try {
+		throw new Exception("");
+		}catch(Exception e){
+		}
+        return true;
 	}
 }
