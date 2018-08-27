@@ -1,6 +1,6 @@
 package demomaven;
 
-public class DemoMaven_Copy extends DemoMaven {
+public class DemoMaven_Copy4 extends DemoMaven {
 
 	public static void main(String[] args) {
 		int k;
