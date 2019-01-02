@@ -1,19 +1,19 @@
 {
 	"gammaAccess": {
-		"url": "http://localhost:3000",
+		"url": "http://192.168.3.33:3000",
 		"userName": "nilesh.virkar@acellere.com",
-		"password": "gamma123"
+		"password": "gamma12345"
 	},
 	"repositories": [{
 			"repository": {
-				"uid": "40f32a0e772c8fd270669ff91e5851cb",
+				"uid": "eed5e877d792a509dfae33e1c83fecb8",
 				"projectName": "gamma",
 				"sources": {
-					"baseDir": "%WORKSPACE%",
+					"baseDir": "$WORKSPACE",
 					"exclusions": ["exclusion_regex", "exclusion_regex"]
 				}
 			},
-			"dataDir": "C:/temp",
+			"dataDir": "$GAMMA_DATA",
 			"modules": {
 				"codeissues": [ 
 {"name":"pmd"}
