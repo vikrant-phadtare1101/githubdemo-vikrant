@@ -1,24 +1,87 @@
 {
-	"gammaAccess": {
-		"url": "http://192.168.3.33:3000",
-		"userName": "nilesh.virkar@acellere.com",
-		"password": "gamma12345"
-	},
-	"repositories": [{
-			"repository": {
-				"uid": "eed5e877d792a509dfae33e1c83fecb8",
-				"projectName": "gamma",
-				"sources": {
-					"baseDir": "$WORKSPACE",
-					"exclusions": ["exclusion_regex", "exclusion_regex"]
-				}
-			},
-			"dataDir": "$GAMMA_DATA",
-			"modules": {
-				"codeissues": [ 
-{"name":"pmd"}
-				]
-			}
-		}
-	]
+    "gammaAccess": {
+        "url": "http://localhost:3000",
+        "userName": "nilesh.virkar@acellere.com",
+        "password": "gamma12345"
+    },
+    "repositories": [
+        {
+            "dataDir": "C:/temp",
+            "repository": {
+                "uid": "033b3489911afd0ec618b40e4bd2b5cd",
+                "projectName": "githubdemo_jenkins",
+                "languages": [
+                    "JAVA"
+                ],
+                "sources": {
+                    "baseDir": "%WORKSPACE%",
+                    "exclusions": []
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "codeissues": [
+                    {
+                        "name": "gamma_java",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "pmd",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "javaVersion",
+                                    "type": "text",
+                                    "value": "1.8",
+                                    "required": false
+                                },
+                                {
+                                    "name": "ruleSets",
+                                    "type": "text",
+                                    "value": "rulesets/java/strictexception.xml,rulesets/java/basic.xml,rulesets/java/design.xml",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "unittest": [
+                    {
+                        "name": "junit",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
 }
