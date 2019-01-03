@@ -1,6 +1,6 @@
 {
     "gammaAccess": {
-        "url": "http://localhost:3000",
+        "url": "http://192.168.2.38:3000",
         "userName": "nilesh.virkar@acellere.com",
         "password": "gamma12345"
     },
@@ -8,7 +8,7 @@
         {
             "dataDir": "C:/temp",
             "repository": {
-                "uid": "033b3489911afd0ec618b40e4bd2b5cd",
+                "uid": "e3e6251eb557761442972e67700c9e0e",
                 "projectName": "githubdemo_jenkins",
                 "languages": [
                     "JAVA"
