@@ -6,8 +6,14 @@ package org.subproject2_B_1;
  */
 public class App 
 {
+	int k;
+	
     public static void main( String[] args )
     {
+    	try {	
+    	} catch (Exception e) {
+		}
+    	
         System.out.println( "Hello World!" );
     }
 }
