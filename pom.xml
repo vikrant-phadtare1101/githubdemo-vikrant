@@ -84,5 +84,6 @@
 	<modules>
 		<module>subproject</module>
 		<module>subproject2</module>
+		<module>subproject3</module>
 	</modules>
 </project>

@@ -1,14 +1,14 @@
-package subproject2;
+package subproject;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class DemoTestSubproject2 {
+public class DemoTest {
 
 	@Test
 	public void testObject() {
-		assertTrue(false);
+		assertTrue(true);
 	}
 
 }
