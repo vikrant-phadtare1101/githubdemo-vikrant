@@ -70,16 +70,6 @@
                             ]
                         }
                     }
-                ],
-                "relevance": [
-                    {
-                        "name": "relevance",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": []
-                        }
-                    }
                 ]
             }
         }
