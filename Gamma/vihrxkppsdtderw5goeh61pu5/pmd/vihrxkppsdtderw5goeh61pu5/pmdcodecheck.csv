@@ -1,0 +1,3 @@
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","subproject","D:\source_codes\git\githubdemo\subproject\src\main\java\subproject\DemoSubproject.java","4","5","Consider using varargs for methods or constructors which take an array the last parameter.","Design","UseVarargs"
+"2","subproject","D:\source_codes\git\githubdemo\subproject\src\main\java\subproject\DemoSubproject.java","2","9","Avoid reassigning parameters such as 'k'","Design","AvoidReassigningParameters"
