@@ -1,8 +1,8 @@
 {
     "gammaAccess": {
-        "url": "http://192.168.2.38:3000",
-        "userName": "nilesh.virkar@acellere.com",
-        "password": "gamma12345"
+        "url": "",
+        "userName": "",
+        "password": ""
     },
     "repositories": [
         {
@@ -68,16 +68,6 @@
                                     "required": true
                                 }
                             ]
-                        }
-                    }
-                ],
-                "relevance": [
-                    {
-                        "name": "relevance",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": []
                         }
                     }
                 ]

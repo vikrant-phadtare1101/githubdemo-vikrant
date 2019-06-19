@@ -9,6 +9,8 @@ public class DemoSubproject {
 	public boolean unusedMethodSubproject(boolean k) {
 		k = true;
 		
+		int subproject;
+		
         String foo = null;
         System.out.println(foo.length());
 
