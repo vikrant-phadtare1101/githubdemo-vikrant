@@ -9,14 +9,6 @@ public class DemoSubproject {
 	
 	private static DemoSubproject foo = null;
 
-//multiple simultaneous callers may see partially initialized objects
-public static DemoSubproject getFoo() {
-    if (foo==null) {
-        foo = new DemoSubproject();
-    }
-   return foo;
-}
-
 	public boolean unusedMethodSubproject(boolean k) {
 		k = true;
 		
@@ -34,4 +26,12 @@ try {
 
         return k;
 	}
+	
+	//multiple simultaneous callers may see partially initialized objects
+public static DemoSubproject getFoo() {
+    if (foo==null) {
+        foo = new DemoSubproject();
+    }
+   return foo;
+}
 }
