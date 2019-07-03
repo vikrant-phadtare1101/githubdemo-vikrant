@@ -28,10 +28,11 @@ try {
 	}
 	
 	//multiple simultaneous callers may see partially initialized objects
-public static DemoSubproject getFoo() {
-    if (foo==null) {
-        foo = new DemoSubproject();
-    }
-   return foo;
-}
+// public static DemoSubproject getFoo() {
+    // if (foo==null) {
+        // foo = new DemoSubproject();
+    // }
+   // return foo;
+// }
+
 }
