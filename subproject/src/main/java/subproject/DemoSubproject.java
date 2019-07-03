@@ -27,12 +27,12 @@ try {
         return k;
 	}
 	
-	//multiple simultaneous callers may see partially initialized objects
-// public static DemoSubproject getFoo() {
-    // if (foo==null) {
-        // foo = new DemoSubproject();
-    // }
-   // return foo;
-// }
+	multiple simultaneous callers may see partially initialized objects
+ public static DemoSubproject getFoo() {
+     if (foo==null) {
+         foo = new DemoSubproject();
+     }
+    return foo;
+ }
 
 }
