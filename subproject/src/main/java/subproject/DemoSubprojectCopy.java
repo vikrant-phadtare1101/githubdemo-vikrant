@@ -2,6 +2,8 @@ package subproject;
 
 public class DemoSubprojectCopy {
 
+	private static DemoSubprojectCopy foo = null;
+
 	public static void main(String[] args) {
 		int k_subproject;
 	}
@@ -14,4 +16,18 @@ public class DemoSubprojectCopy {
         
         return k;
 	}
+	
+	 public static DemoSubprojectCopy getFoo() {
+     if (foo==null) {
+         foo = new DemoSubprojectCopy();
+     }
+    return foo;
+ }
+ 
+ 	 public static DemoSubprojectCopy getFoo2() {
+     if (foo==null) {
+         foo = new DemoSubprojectCopy();
+     }
+    return foo;
+ }
 }
