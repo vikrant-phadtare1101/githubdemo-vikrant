@@ -24,7 +24,7 @@ public class DemoSubprojectCopy {
     return foo;
  }
  
- 	 public static DemoSubprojectCopy getFoo2() {
+ 	 public static DemoSubprojectCopy getFoo2() { 
      if (foo==null) {
          foo = new DemoSubprojectCopy();
      }
