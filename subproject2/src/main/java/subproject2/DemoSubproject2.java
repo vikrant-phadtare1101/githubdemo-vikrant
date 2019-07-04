@@ -8,6 +8,14 @@ public class DemoSubproject2 {
 		int k_subproject;
 	}
 
+	private static DemoSubproject2 foo = null;
+
+	public static DemoSubproject2 getFook() {  
+		if (foo==null) {
+			foo = new DemoSubproject2();
+		}
+		return foo;
+	}
 	
 	public boolean unusedMethodSubproject(boolean k) {
 		k = true;
@@ -16,14 +24,5 @@ public class DemoSubproject2 {
 		System.out.println(foo.length());
 
 		return k;
-	}
-
-	private static DemoSubproject2 foo = null;
-
-	public static DemoSubproject2 getFook() {  
-		if (foo==null) {
-			foo = new DemoSubproject2();
-		}
-		return foo;
 	}
 }
