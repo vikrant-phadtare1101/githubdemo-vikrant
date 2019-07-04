@@ -17,6 +17,14 @@ public class DemoSubproject2 {
 		return fook;
 	}
 	
+	private static DemoSubproject2 foo = null;  
+
+	public static DemoSubproject2 getFoo() {  
+		if (foo==null) {
+			foo = new DemoSubproject2();
+		}
+		return foo;
+	}
 	
 	public boolean unusedMethodSubproject(boolean k) {
 		k = true;
@@ -27,12 +35,4 @@ public class DemoSubproject2 {
 		return k;
 	}
 	
-	private static DemoSubproject2 foo = null;  
-
-	public static DemoSubproject2 getFoo() {  
-		if (foo==null) {
-			foo = new DemoSubproject2();
-		}
-		return foo;
-	}
 }
