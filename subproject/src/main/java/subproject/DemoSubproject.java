@@ -14,6 +14,23 @@ public class DemoSubproject {
 
  public static DemoSubproject getFoo() {
 	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
+	    System.out.println("");
 	    
      if (foo==null) {
          foo = new DemoSubproject();
