@@ -13,6 +13,8 @@ public class DemoSubproject {
 	//multiple simultaneous callers may see partially initialized objects
 
  public static DemoSubproject getFoo() {
+	    System.out.println("");
+	    
      if (foo==null) {
          foo = new DemoSubproject();
      }
