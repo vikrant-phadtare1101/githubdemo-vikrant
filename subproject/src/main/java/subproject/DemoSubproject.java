@@ -84,7 +84,7 @@ public class DemoSubproject {
      if (foo==null) {
          foo = new DemoSubproject();
      }
-    return foo;
+    return foo; 
  }
 
  public static DemoSubproject getFoo2() {
