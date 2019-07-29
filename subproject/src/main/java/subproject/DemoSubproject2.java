@@ -1,6 +1,6 @@
 package subproject;
 
-public class DemoSubproject {
+public class DemoSubproject2 {
 
 	public static void main(String[] args) {
 		int k_subproject;
@@ -13,6 +13,7 @@ public class DemoSubproject {
 	//multiple simultaneous callers may see partially initialized objects
 
  public static DemoSubproject getFoo() {
+	 System.out.println("");
      if (foo==null) {
          foo = new DemoSubproject();
      }

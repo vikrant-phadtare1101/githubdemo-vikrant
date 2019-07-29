@@ -12,6 +12,7 @@ public class DemoSubproject2 {
 
 	public static DemoSubproject2 getFook() { 
 		 System.out.println("");
+		 System.out.println("");
 		 
 		if (fook==null) {
 			fook = new DemoSubproject2();

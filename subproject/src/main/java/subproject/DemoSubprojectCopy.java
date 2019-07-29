@@ -13,6 +13,7 @@ public class DemoSubprojectCopy {
 		
         String foo = null;
         System.out.println(foo.length());
+        System.out.println("");
         
         return k;
 	}
