@@ -13,7 +13,7 @@ public class DemoSubproject2 {
 	//multiple simultaneous callers may see partially initialized objects
 
  public static DemoSubproject getFoo() {
-	 System.out.println("commit 1");
+	 System.out.println("commit 2");
      if (foo==null) {
          foo = new DemoSubproject();
      }
