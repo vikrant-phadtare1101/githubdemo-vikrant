@@ -15,7 +15,6 @@ public class DemoSubproject2 {
  public static DemoSubproject getFoo() {
 	 System.out.println("commit 3");
 	 System.out.println("commit 3");
-	 System.out.println("commit 3");
      if (foo==null) {
          foo = new DemoSubproject();
      }
