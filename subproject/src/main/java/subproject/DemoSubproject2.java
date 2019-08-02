@@ -21,4 +21,11 @@ public class DemoSubproject2 {
     return foo;
  }
 
+ public static DemoSubproject getFoot() {
+     if (foo==null) {
+         foo = new DemoSubproject();
+     }
+    return foo;
+ }
+ 
 }
