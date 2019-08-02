@@ -12,30 +12,29 @@ public class DemoSubproject2 {
 
 	public static DemoSubproject2 getFook() { 
 		 System.out.println("");
-		 System.out.println("");
 		 
 		if (fook==null) {
 			fook = new DemoSubproject2();
 		}
 		return fook;
 	}
-	
-	private static DemoSubproject2 foo = null;  
 
-	public static DemoSubproject2 getFoo() {  
-		if (foo==null) {
-			foo = new DemoSubproject2();
-		}
-		return foo;
-	}
+	
 	
 	public boolean unusedMethodSubproject(boolean k) {
-		k = true;
-
-		String foo = null;
-		System.out.println(foo.length());
 
 		return k;
+	}
+	
+	
+	public void x(){
+		try{
+			
+		}
+		catch(Exception ex){
+			
+		}
+		
 	}
 	
 }
