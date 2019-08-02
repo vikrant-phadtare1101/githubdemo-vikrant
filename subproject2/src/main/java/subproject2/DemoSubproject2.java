@@ -21,10 +21,7 @@ public class DemoSubproject2 {
 
 	
 	
-	public boolean unusedMethodSubproject(boolean k) {
-
-		return k;
-	}
+	
 	
 	
 	public void x(){
