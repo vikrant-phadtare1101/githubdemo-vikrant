@@ -3,6 +3,7 @@ package demomaven;
 public class AnotherCopy_DemoMaven {
 
 	public boolean unusedMethod(boolean k) {
+		int l;
 		k = true;
 		
         String foo = null;
