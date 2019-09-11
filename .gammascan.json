@@ -6,7 +6,7 @@
     },
     "repositories": [
         {
-            "dataDir": "C:/temp",
+            "dataDir": "%WORKSPACE%",
             "repository": {
                 "uid": "847154626191c194211b2cdfd23461d5",
                 "projectName": "githubdemo_jenkins",
