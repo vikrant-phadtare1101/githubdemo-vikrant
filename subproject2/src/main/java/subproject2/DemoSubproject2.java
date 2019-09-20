@@ -25,7 +25,7 @@ public class DemoSubproject2 {
 	
 	
 	public static int getIntValue() {
-	int k = 5;
+	int k = 58;
 	return k;	
 	}
 	
