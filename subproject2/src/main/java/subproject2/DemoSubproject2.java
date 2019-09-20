@@ -24,8 +24,10 @@ public class DemoSubproject2 {
 
 	
 	
-	
-	
+	public static int getIntValue() {
+	int k = 5;
+	return k;	
+	}
 	
 	public void x(){
 		try{
