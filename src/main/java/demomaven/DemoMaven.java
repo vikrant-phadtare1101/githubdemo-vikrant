@@ -14,11 +14,9 @@ public class DemoMaven {
 	}
 	
 	public boolean unusedMethod2(boolean k) {
-		k = true;
-		
-        String foo = null;
-        
-		return k;
+		boolean p=true;
+		System.out.println("text");
+		return p;
 	}
 
 }
