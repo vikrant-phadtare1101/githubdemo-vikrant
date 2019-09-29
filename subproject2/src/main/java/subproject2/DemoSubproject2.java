@@ -18,7 +18,7 @@ public class DemoSubproject2 {
 		 
 		if (fook==null) {
 			fook = new DemoSubproject2();
-		}        
+		}         
 		return fook;
 	}
 
