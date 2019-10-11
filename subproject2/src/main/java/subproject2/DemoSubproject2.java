@@ -14,11 +14,11 @@ public class DemoSubproject2 {
 	private static DemoSubproject2 fook = null;
 
 	public static DemoSubproject2 getFook() { 
-		 System.out.println("");
+		 System.out.println(""); 
 		 
 		if (fook==null) {
 			fook = new DemoSubproject2();
-		}                  
+		}                       
 		return fook;
 	}
 
@@ -30,6 +30,7 @@ public class DemoSubproject2 {
 	}
 	
 	public void x(){
+		System.out.println("text");
 		try{
 			
 		}
