@@ -1,18 +1,18 @@
 package subproject;
 
-public class DemoSubproject {
+public class DemoSubproject_k {
 
 	public static void main(String[] args) {
 		int k_subproject;
 		
 	}
 	
-	private static DemoSubproject foo = null;
+	private static DemoSubproject_k foo = null;
 	
 	
 	//multiple simultaneous callers may see partially initialized objects
 
- public static DemoSubproject getFoo() { 
+ public static DemoSubproject_k getFoo() { 
 	    System.out.println("");
 	    System.out.println("");
 	    System.out.println(""); 
@@ -83,14 +83,14 @@ public class DemoSubproject {
 	    System.out.println("");
 	    System.out.println("");
      if (foo==null) {
-         foo = new DemoSubproject();
+         foo = new DemoSubproject_k();
      }
     return foo; 
  }
 
- public static DemoSubproject getFoo2() {
+ public static DemoSubproject_k getFoo2() {
      if (foo==null) {
-         foo = new DemoSubproject();
+         foo = new DemoSubproject_k();
      }
     return foo;
  }

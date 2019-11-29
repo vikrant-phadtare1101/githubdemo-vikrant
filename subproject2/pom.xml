@@ -15,10 +15,5 @@
 		<module>subproject2_B</module>
 	</modules>
 	<dependencies>
-		<dependency>
-			<groupId>com.acellere.corona</groupId>
-			<artifactId>subproject2_A</artifactId>
-			<version>0.6.5-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 </project>

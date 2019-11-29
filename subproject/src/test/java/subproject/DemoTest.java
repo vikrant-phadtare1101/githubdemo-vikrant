@@ -2,6 +2,7 @@ package subproject;
 
 import static org.junit.Assert.*;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class DemoTest {
@@ -11,4 +12,13 @@ public class DemoTest {
 		assertTrue(true);
 	}
 
+	@Test
+	public void testObjectFail() {
+		assertTrue(false);
+	}
+
+	@Ignore
+	public void testObjectIgnore() {
+		assertTrue(false);
+	}
 }
