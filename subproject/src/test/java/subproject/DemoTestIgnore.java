@@ -5,7 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.Ignore;
 import org.junit.Test;
 
-public class DemoTest {
+@Ignore
+public class DemoTestIgnore {
 
 	@Test
 	public void testObject() {
@@ -18,7 +19,6 @@ public class DemoTest {
 	}
 
 	@Ignore
-	@Test
 	public void testObjectIgnore() {
 		assertTrue(false);
 	}
