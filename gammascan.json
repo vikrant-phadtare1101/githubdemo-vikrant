@@ -1,21 +1,23 @@
 {
     "gammaAccess": {
-        "url": "http://192.168.2.38:3000",
-        "userName": "nilesh.virkar@acellere.com",
-        "password": "gamma12345"
+        "url": "",
+        "userName": "",
+        "password": ""
     },
     "repositories": [
         {
-            "dataDir": "C:/temp",
+            "dataDir": "",
             "repository": {
-                "uid": "e3e6251eb557761442972e67700c9e0e",
-                "projectName": "githubdemo_jenkins",
+                "uid": "f7afc5e153c2b266ae329cd06eb1c6b0",
+                "projectName": "FromSource",
                 "languages": [
                     "JAVA"
                 ],
                 "sources": {
-                    "baseDir": "%WORKSPACE%",
-                    "exclusions": []
+                    "baseDir": "",
+                    "exclusions": [
+                        "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
+                    ]
                 }
             },
             "settings": {
@@ -23,37 +25,6 @@
                 "includePaths": []
             },
             "modules": {
-                "codeissues": [
-                    {
-                        "name": "gamma_java",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": []
-                        }
-                    },
-                    {
-                        "name": "pmd",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": [
-                                {
-                                    "name": "javaVersion",
-                                    "type": "text",
-                                    "value": "1.8",
-                                    "required": false
-                                },
-                                {
-                                    "name": "ruleSets",
-                                    "type": "text",
-                                    "value": "rulesets/java/strictexception.xml,rulesets/java/basic.xml,rulesets/java/design.xml",
-                                    "required": true
-                                }
-                            ]
-                        }
-                    }
-                ],
                 "unittest": [
                     {
                         "name": "junit",
@@ -78,6 +49,54 @@
                         "config": {
                             "rules": [],
                             "options": []
+                        }
+                    }
+                ],
+                "codeissues": [
+                    {
+                        "name": "pmd",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "javaVersion",
+                                    "type": "text",
+                                    "value": "1.8",
+                                    "required": false
+                                },
+                                {
+                                    "name": "ruleSets",
+                                    "type": "text",
+                                    "value": "rulesets/java/strictexception.xml,rulesets/java/basic.xml,rulesets/java/design.xml",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "gamma_java",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "coverage": [
+                    {
+                        "name": "clover",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
                         }
                     }
                 ]
