@@ -18,6 +18,16 @@ public class DemoSubprojectCopy {
         return k;
 	}
 	
+	public boolean unusedMethodSubproject2(boolean k) {
+		k = true;
+		
+        String foo = null;
+        System.out.println(foo.length());
+        System.out.println("");
+        
+        return k;
+	}
+	
 	 public static DemoSubprojectCopy getFoo() {
      if (foo==null) {
          foo = new DemoSubprojectCopy();
