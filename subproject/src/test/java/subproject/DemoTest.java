@@ -18,14 +18,14 @@ public class DemoTest {
 	public void testObject2() {
 		assertTrue(true);
 		DemoSubproject2 demoSubproject = new DemoSubproject2();
-		DemoSubproject.main(null);
+		DemoSubproject2.main(null);
 	}
 	
 	@Test
 	public void testObject3() {
 		assertTrue(true);
-		DemoSubproject2 demoSubproject = new DemoSubproject2();
-		DemoSubproject.main(null);
+		DemoSubproject demoSubproject = new DemoSubproject2();
+		DemoSubprojectCopy.main(null);
 	}
 	
 	@Test
