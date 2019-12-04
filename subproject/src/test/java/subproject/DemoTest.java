@@ -15,6 +15,20 @@ public class DemoTest {
 	}
 	
 	@Test
+	public void testObject2() {
+		assertTrue(true);
+		DemoSubproject2 demoSubproject = new DemoSubproject2();
+		DemoSubproject.main(null);
+	}
+	
+	@Test
+	public void testObject3() {
+		assertTrue(true);
+		DemoSubproject2 demoSubproject = new DemoSubproject2();
+		DemoSubproject.main(null);
+	}
+	
+	@Test
 	public void testObjectFail() {
 		assertTrue(false);
 	}
