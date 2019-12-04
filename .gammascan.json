@@ -8,7 +8,7 @@
         {
             "dataDir": "%WORKSPACE%",
             "repository": {
-                "uid": "f7afc5e153c2b266ae329cd06eb1c6b0",
+                "uid": "a0e2110a0c34bac53f4766fed8910308",
                 "projectName": "githubdemo_jenkins",
                 "languages": [
                     "JAVA"
