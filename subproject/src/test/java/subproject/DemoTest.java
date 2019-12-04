@@ -24,7 +24,7 @@ public class DemoTest {
 	@Test
 	public void testObject3() {
 		assertTrue(true);
-		DemoSubproject demoSubproject = new DemoSubproject2();
+		DemoSubproject2 demoSubproject = new DemoSubproject2();
 		DemoSubprojectCopy.main(null);
 	}
 	
