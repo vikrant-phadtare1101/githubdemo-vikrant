@@ -27,17 +27,4 @@ public class AppTest
     {
         return new TestSuite( AppTest.class );
     }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( false );
-    }
-    
-    @org.junit.Test
-    public void test1() {
-    	assertTrue( true );
-    }
 }
