@@ -9,7 +9,7 @@
                 "projectName": "ModuleData",
                 "sources": {
                     "baseDir": "/home/nilesh/sources/python/scenario1",
-                    "exclusions": ["subproject2"]
+                    "exclusions": []
                 }
             },
             "settings": {
