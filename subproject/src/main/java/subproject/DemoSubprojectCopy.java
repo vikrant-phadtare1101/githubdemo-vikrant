@@ -8,7 +8,7 @@ public class DemoSubprojectCopy {
 		int k_subproject;
 	}
 	
-	public boolean unusedMethodSubproject(boolean k) {
+	public boolean unusedMethodSubproject(boolean k) { 
 		k = true;
 		
         String foo = null;
