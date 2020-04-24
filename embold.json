@@ -1,4 +1,4 @@
-{{
+{
     "gammaAccess": {
     },
     "repositories": [
@@ -9,7 +9,7 @@
                 "projectName": "ModuleData",
                 "sources": {
                     "baseDir": "",
-                    "exclusions": []
+                    "exclusions": ["subproject2"]
                 }
             },
             "settings": {
