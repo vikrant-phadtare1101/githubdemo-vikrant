@@ -1,23 +1,196 @@
 {
-    "gammaAccess": {
-    },
-    "repositories": [
-        {
-            "dataDir": "/home/nilesh/temp",
-            "repository": {
-                "uid": "4510123a6e7d7964edde65dfc3eb108c",
-                "projectName": "ModuleData",
-                "sources": {
-                    "baseDir": "",
-                    "exclusions": ["subproject2"]
-                }
-            },
-            "settings": {
-                "additionalOptions": [],
-                "includePaths": []
-            },
-            "modules": {
-            }
-        }
-    ]
+	"gammaAccess": {
+		"url": "http://localhost:3000",
+		"token": "%EMBOLD_TOKEN%"
+	},
+	"repositories": [
+		{
+			"dataDir": "D:/temp",
+			"repository": {
+				"uid": "5a5d1f49ac8a82ceede8123161552e51k",
+				"projectName": "githubdemo",
+				"languages": [
+					"JAVA"
+				],
+				"sources": {
+					"baseDir": "D:/source_codes/zip/java/githubdemo-master",
+					"exclusions": []
+				}
+			},
+			"settings": {
+				"additionalOptions": [],
+				"includePaths": []
+			},
+			"modules": {
+				"codeissues": [
+					{
+						"name": "gamma_java",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": []
+						}
+					},
+					{
+						"name": "pmd",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "javaVersion",
+									"type": "text",
+									"value": "1.8",
+									"required": false
+								},
+								{
+									"name": "ruleSets",
+									"type": "text",
+									"value": "rulesets/java/strictexception.xml,rulesets/java/basic.xml,rulesets/java/design.xml",
+									"required": true
+								}
+							]
+						}
+					},
+					{
+						"name": "gamma_generic",
+						"enabled": false,
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "reportDir",
+									"type": "upload",
+									"value": "",
+									"required": true
+								}
+							]
+						}
+					}
+				],
+				"unittest": [
+					{
+						"name": "junit",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "reportDir",
+									"type": "upload",
+									"value": "",
+									"required": true
+								}
+							]
+						}
+					}
+				],
+				"relevance": [
+					{
+						"name": "relevance",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": []
+						}
+					}
+				],
+				"coverage": [
+					{
+						"name": "clover",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "reportDir",
+									"type": "upload",
+									"value": "",
+									"required": true
+								}
+							]
+						}
+					},
+					{
+						"name": "jacoco",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "binaryReportPath",
+									"type": "upload",
+									"value": "",
+									"required": false
+								},
+								{
+									"name": "xmlReportPath",
+									"type": "upload",
+									"value": "",
+									"required": false
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		{
+			"dataDir": "D:/temp",
+			"repository": {
+				"uid": "b153bc0f1ef4ae721b22029fb86f67eak",
+				"projectName": "githubdemo_ts",
+				"languages": [
+					"TYPESCRIPT"
+				],
+				"sources": {
+					"baseDir": "D:/source_codes/zip/java/githubdemo-master",
+					"exclusions": [
+					"main.ts"
+					]
+				}
+			},
+			"settings": {
+				"additionalOptions": [],
+				"includePaths": []
+			},
+			"modules": {
+				"relevance": [
+					{
+						"name": "relevance",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": []
+						}
+					}
+				],
+				"codeissues": [
+					{
+						"name": "tslint",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": []
+						}
+					},
+					{
+						"name": "gamma_generic",
+						"enabled": false,
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "reportDir",
+									"type": "upload",
+									"value": "",
+									"required": true
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
 }
