@@ -7,6 +7,63 @@
 		{
 			"dataDir": "D:/temp",
 			"repository": {
+				"uid": "b153bc0f1ef4ae721b22029fb86f67eak",
+				"projectName": "githubdemo_ts",
+				"languages": [
+					"TYPESCRIPT"
+				],
+				"sources": {
+					"baseDir": "D:/source_codes/zip/java/githubdemo-master",
+					"exclusions": [
+					"main.ts"
+					]
+				}
+			},
+			"settings": {
+				"additionalOptions": [],
+				"includePaths": []
+			},
+			"modules": {
+				"relevance": [
+					{
+						"name": "relevance",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": []
+						}
+					}
+				],
+				"codeissues": [
+					{
+						"name": "tslint",
+						"enabled": true,
+						"config": {
+							"rules": [],
+							"options": []
+						}
+					},
+					{
+						"name": "gamma_generic",
+						"enabled": false,
+						"config": {
+							"rules": [],
+							"options": [
+								{
+									"name": "reportDir",
+									"type": "upload",
+									"value": "",
+									"required": true
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+				{
+			"dataDir": "D:/temp",
+			"repository": {
 				"uid": "5a5d1f49ac8a82ceede8123161552e51k",
 				"projectName": "githubdemo",
 				"languages": [
@@ -128,63 +185,6 @@
 									"type": "upload",
 									"value": "",
 									"required": false
-								}
-							]
-						}
-					}
-				]
-			}
-		},
-		{
-			"dataDir": "D:/temp",
-			"repository": {
-				"uid": "b153bc0f1ef4ae721b22029fb86f67eak",
-				"projectName": "githubdemo_ts",
-				"languages": [
-					"TYPESCRIPT"
-				],
-				"sources": {
-					"baseDir": "D:/source_codes/zip/java/githubdemo-master",
-					"exclusions": [
-					"main.ts"
-					]
-				}
-			},
-			"settings": {
-				"additionalOptions": [],
-				"includePaths": []
-			},
-			"modules": {
-				"relevance": [
-					{
-						"name": "relevance",
-						"enabled": true,
-						"config": {
-							"rules": [],
-							"options": []
-						}
-					}
-				],
-				"codeissues": [
-					{
-						"name": "tslint",
-						"enabled": true,
-						"config": {
-							"rules": [],
-							"options": []
-						}
-					},
-					{
-						"name": "gamma_generic",
-						"enabled": false,
-						"config": {
-							"rules": [],
-							"options": [
-								{
-									"name": "reportDir",
-									"type": "upload",
-									"value": "",
-									"required": true
 								}
 							]
 						}
