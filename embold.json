@@ -9,9 +9,6 @@
 			"repository": {
 				"uid": "b153bc0f1ef4ae721b22029fb86f67eak",
 				"projectName": "githubdemo_ts",
-				"languages": [
-					"TYPESCRIPT"
-				],
 				"sources": {
 					"baseDir": "D:/source_codes/zip/java/githubdemo-master",
 					"exclusions": [
@@ -64,11 +61,8 @@
 				{
 			"dataDir": "D:/temp",
 			"repository": {
-				"uid": "5a5d1f49ac8a82ceede8123161552e51k",
+				"uid": "7726a562ea679179cabba890c1d70a02",
 				"projectName": "githubdemo",
-				"languages": [
-					"JAVA"
-				],
 				"sources": {
 					"baseDir": "D:/source_codes/zip/java/githubdemo-master",
 					"exclusions": ["subproject2"]
