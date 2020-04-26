@@ -15,7 +15,7 @@
 				"sources": {
 					"baseDir": "D:/source_codes/zip/java/githubdemo-master",
 					"exclusions": [
-					"main.ts"
+					"subproject2"
 					]
 				}
 			},
