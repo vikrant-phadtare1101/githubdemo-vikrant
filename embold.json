@@ -136,16 +136,6 @@
 						}
 					}
 				],
-				"relevance": [
-					{
-						"name": "relevance",
-						"enabled": true,
-						"config": {
-							"rules": [],
-							"options": []
-						}
-					}
-				],
 				"coverage": [
 					{
 						"name": "clover",
