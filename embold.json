@@ -4,60 +4,6 @@
 		"token": "%EMBOLD_TOKEN%"
 	},
 	"repositories": [
-		{
-			"dataDir": "D:/temp",
-			"repository": {
-				"uid": "b153bc0f1ef4ae721b22029fb86f67eak",
-				"projectName": "githubdemo_ts",
-				"sources": {
-					"baseDir": "D:/source_codes/zip/java/githubdemo-master",
-					"exclusions": [
-					""
-					]
-				}
-			},
-			"settings": {
-				"additionalOptions": [],
-				"includePaths": []
-			},
-			"modules": {
-				"relevance": [
-					{
-						"name": "relevance",
-						"enabled": true,
-						"config": {
-							"rules": [],
-							"options": []
-						}
-					}
-				],
-				"codeissues": [
-					{
-						"name": "tslint",
-						"enabled": true,
-						"config": {
-							"rules": [],
-							"options": []
-						}
-					},
-					{
-						"name": "gamma_generic",
-						"enabled": false,
-						"config": {
-							"rules": [],
-							"options": [
-								{
-									"name": "reportDir",
-									"type": "upload",
-									"value": "",
-									"required": true
-								}
-							]
-						}
-					}
-				]
-			}
-		},
 				{
 			"dataDir": "D:/temp",
 			"repository": {
