@@ -1,7 +1,7 @@
 {
 	"gammaAccess": {
 		"url": "http://localhost:3000",
-		"token": "%EMBOLD_TOKEN%"
+		"token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTU4ODA4NTEzNjI3MCwiaWF0IjoxNTg4MDg1MTM2fQ.iPEwl5_mwRvGwmUcTrfvgrOiHOKN8HHvFwOUkNbd-T_4hyKbVcqEglaXolukiFDI2V7o5viSvAuSCLFrXRAJBg"
 	},
 	"repositories": [
 				{
