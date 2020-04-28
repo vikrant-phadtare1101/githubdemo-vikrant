@@ -5,7 +5,7 @@
 	},
 	"repositories": [
 				{
-			"dataDir": "D:/temp",
+			"dataDir": "/var/tmp",
 			"repository": {
 				"uid": "7726a562ea679179cabba890c1d70a02",
 				"projectName": "githubdemo",
