@@ -6,7 +6,7 @@
     },
     "repositories": [
         {
-            "dataDir": "/home/nilesh/tempk",
+            "dataDir": "/home/nilesh/temp",
             "repository": {
                 "uid": "f1c3abdc163ec17ed10f0415fa1b967b",
                 "projectName": "githubdemo_jenkins",
