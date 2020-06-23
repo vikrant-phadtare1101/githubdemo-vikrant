@@ -14,7 +14,7 @@
                     "JAVA"
                 ],
                 "sources": {
-                    "baseDir": "/var/lib/jenkins/workspace/githubdemo2",
+                    "baseDir": "/home/nilesh/configs",
                     "exclusions": []
                 }
             },
