@@ -6,7 +6,7 @@
     },
     "repositories": [
         {
-            "dataDir": "",
+            "dataDir": "D:\\Shekhar-Acellere\\Github-Repos\\java\\calcite",
             "repository": {
                 "uid": "f82d6a7c6cc67e0ae57de1360761e5a4",
                 "projectName": "FromSource",
