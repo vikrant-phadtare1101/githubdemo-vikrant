@@ -6,7 +6,7 @@
     },
     "repositories": [
         {
-            "dataDir": "C:\\tempd",
+            "dataDir": "/home/nilesh/com",
             "repository": {
                 "uid": "f82d6a7c6cc67e0ae57de1360761e5a4",
                 "projectName": "FromSource",
@@ -14,7 +14,7 @@
                     "JAVA"
                 ],
                 "sources": {
-                    "baseDir": "D:\\Shekhar-Acellere\\Github-Repos\\java\\calcite",
+                    "baseDir": "/home/nilesh/data/githubdemo",
                     "exclusions": [
                         "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
                     ]
