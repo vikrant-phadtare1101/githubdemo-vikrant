@@ -14,7 +14,7 @@
                     "JAVA"
                 ],
                 "sources": {
-                    "baseDir": "D:\\Shekhar-Acellere\\Github-Repos\\java\\",
+                    "baseDir": "D:\\Shekhar-Acellere\\Github-Repos\\java\\githubdemo",
                     "exclusions": [
                         "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
                     ]
