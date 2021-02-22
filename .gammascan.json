@@ -6,15 +6,15 @@
     },
     "repositories": [
         {
-            "dataDir": "C:\\workspace\\githubdemo",
+            "dataDir": "D:\\Shekhar-Acellere\\Github-Repos\\java\vikrantcalcite_sprint2050data",
             "repository": {
-                "uid": "ea91c7de4e8149ef5850d3402d655c8a",
+                "uid": "d2173314ec2920cdeff0a2160de3af39",
                 "projectName": "FromSource",
                 "languages": [
                     "JAVA"
                 ],
                 "sources": {
-                    "baseDir": "C:\\workspace\\githubdemo",
+                    "baseDir": "D:\\Shekhar-Acellere\\Github-Repos\\java\vikrantcalcite_sprint2050data",
                     "exclusions": [
                         "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
                     ]
