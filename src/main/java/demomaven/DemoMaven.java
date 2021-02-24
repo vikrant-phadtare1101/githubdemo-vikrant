@@ -17,6 +17,7 @@ public class DemoMaven {
 	
 	public boolean unusedMethod2(boolean k) {
 		k = true;
+		//comment added
 		
         String foo = null;
         System.out.println(foo.length());
