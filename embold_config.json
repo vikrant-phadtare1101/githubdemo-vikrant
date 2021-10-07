@@ -6,7 +6,7 @@
     },
     "repositories": [
         {
-            "dataDir": "D:\\Shekhar-Acellere\\Github-Repos\\java\\vikrantcalcite_sprint2050data",
+            "dataDir": "",
             "repository": {
                 "uid": "",
                 "projectName": "FromSource",
@@ -14,7 +14,7 @@
                     "JAVA"
                 ],
                 "sources": {
-                    "baseDir": "D:\\Shekhar-Acellere\\Github-Repos\\java\\githubdemo",
+                    "baseDir": "",
                     "exclusions": [
                         "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external|.java)"
                     ]
