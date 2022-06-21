@@ -10,6 +10,8 @@ public class Copy_DemoMaven {
 		k = true;
 		
         String foo = null;
+		
+		
         System.out.println(foo.length());
         
 		return k;
