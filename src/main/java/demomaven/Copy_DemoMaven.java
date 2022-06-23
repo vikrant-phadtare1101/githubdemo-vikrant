@@ -7,6 +7,7 @@ public class Copy_DemoMaven {
 	}
 	
 	public boolean unusedMethod(boolean k) {
+		
 		k = true;
 		
         String foo = null;
