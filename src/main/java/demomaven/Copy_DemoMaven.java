@@ -23,6 +23,7 @@ public class Copy_DemoMaven {
 		
         String foo = null;
 		
+		
         System.out.println(foo.length());
         
 		return k;
