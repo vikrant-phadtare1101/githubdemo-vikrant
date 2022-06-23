@@ -14,6 +14,7 @@ public class Copy_DemoMaven {
 		
 		
 		
+		
         System.out.println(foo.length());
         
 		return k;
