@@ -9,6 +9,12 @@ public class DemoMaven {
 	public boolean unusedMethod(boolean k) {
 		k = true;
 		
+		
+		
+		
+		
+		
+		System.out.println("");
         
 		return k;
 	}

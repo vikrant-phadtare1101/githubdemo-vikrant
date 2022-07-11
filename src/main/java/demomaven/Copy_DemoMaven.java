@@ -7,9 +7,14 @@ public class Copy_DemoMaven {
 	}
 	
 	public boolean unusedMethod(boolean k) {
+		
 		k = true;
 		
         String foo = null;
+		
+		
+		
+		
         System.out.println(foo.length());
         
 		return k;
@@ -19,6 +24,10 @@ public class Copy_DemoMaven {
 		k = true;
 		
         String foo = null;
+		
+		
+		
+		
         System.out.println(foo.length());
         
 		return k;
