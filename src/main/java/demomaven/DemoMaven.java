@@ -14,7 +14,6 @@ public class DemoMaven {
 		
 		
 		
-		System.out.println("");
         
 		return k;
 	}
