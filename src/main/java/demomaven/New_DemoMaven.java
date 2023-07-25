@@ -10,9 +10,5 @@ public class New_DemoMaven {
 		k = true;
 		return k;
 	}
-	
-	public boolean unusedMethod2() {
-	    int z;
-	}
 
 }
