@@ -6,7 +6,7 @@ public class DemoMaven {
 		int k;
 	}
 	
-	public boolean unusedMethod(boolean k) {
+	public boolean unusedMethod(boolean k) { 
 		k = true;
 		int t;
 		
