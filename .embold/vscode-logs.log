@@ -1,0 +1,97 @@
+2023-11-06 15:16:17 info: tempDirectory:/Users/nilesh/.vscode/extensions/embold-vscode.embold-0.1.6/temp
+2023-11-06 15:16:17 info: Congratulations, your extension "Embold" is now active!
+2023-11-06 15:16:17 info: Current Version Of Embold
+2023-11-06 15:16:17 info: 0.1.6
+2023-11-06 15:16:17 info: Extraction complete for source: /Users/nilesh/.vscode/extensions/embold-vscode.embold-0.1.6/resources/embold-scanner-archive.zip, destination: /Users/nilesh/.vscode/extensions/embold-vscode.embold-0.1.6/temp
+2023-11-06 15:16:18 info: Embold extension version response:
+2023-11-06 15:16:18 info: {"hasSupport":false,"version":"0.9.0.64","changeNotes":"<div> <p>Release Date: 05 May 2022 <br><span>Embold has added 6 new Java rules that will make your code more secure!</span></p> </div>"}
+2023-11-06 15:16:18 info: current version : 
+2023-11-06 15:16:18 info: latest version : 
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:38 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:18:45 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:32 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:32 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:32 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:34 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:34 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:34 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:35 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:39 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:42 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:43 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:44 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:46 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:46 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:46 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:54 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:54 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:54 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:54 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:54 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:55 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:55 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:55 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:57 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:57 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:49:58 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:50:03 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:50:11 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:50:11 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:50:51 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:51:00 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:51:06 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:51:07 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:51:31 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:51:51 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:51:51 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:53:15 error: SQLITE_ERROR: no such table: issues
+2023-11-06 15:53:15 error: SQLITE_ERROR: no such table: issues
