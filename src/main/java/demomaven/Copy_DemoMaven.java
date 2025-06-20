@@ -4,6 +4,7 @@ public class Copy_DemoMaven {
 
 	public static void main(String[] args) {
 		int k;
+		int j=11;
 	}
 	
 	public boolean unusedMethod(boolean k) {
